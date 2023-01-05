@@ -1,6 +1,6 @@
 :root {
   --ms-primary: #003c73;
-  --ms-color: #ffcc00;
+  --ms-color: #fed756;
   --ms-gray: #ccc;
   --ms-dark: #777777;
   --ms-basic: #131313;
@@ -139,6 +139,7 @@ h2 {
   flex-direction: column;
   flex-grow: 1;
   height: 100%;
+  padding: 8vw 0;
 
 }
 
@@ -213,18 +214,18 @@ figure .foto img {
   height: auto;
 }
 
-.price{
+.price {
   display: flex;
   justify-content: space-between;
 
 }
 
-.price p:last-child{
+.price p:last-child {
   flex: 0 0 100px;
 }
 
-.line{
-  border-bottom:1px solid;
+.line {
+  border-bottom: 1px solid;
   border-color: var(--ms-dark);
 }
 
@@ -259,6 +260,15 @@ footer p {
     line-height: 1.55556;
   }
 
+  .hero-text h1,
+  h1 {
+    font-size: 2.75em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
   .container {
     padding: 40px 10px;
   }
@@ -291,6 +301,15 @@ footer p {
   p {
     font-size: 1.25rem;
     line-height: 1.6;
+  }
+
+  .hero-text h1,
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.75em;
   }
 
   .container {
