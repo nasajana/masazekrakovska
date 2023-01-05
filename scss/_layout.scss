@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+main{
+    background-color: azure;
+}
+
+footer{
+    background-color: burlywood;
+}
+
