@@ -127,7 +127,7 @@ h2 {
 
 /* banner homepage */
 .hero-bg {
-  background-image: url(/images/hero-image.jpg);
+  background-image: url(./../images/hero-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -180,7 +180,7 @@ h2 {
 /* obsah */
 
 .section-bg-2 {
-  background-image: url(/images/bg.jpg);
+  background-image: url(./../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
