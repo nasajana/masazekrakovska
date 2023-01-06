@@ -1,0 +1,24 @@
+{
+  "name": "masazekrakovska",
+  "version": "1.0.0",
+  "description": "copy design and hosting transfer",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nasajana/masazekrakovska.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nasajana/masazekrakovska/issues"
+  },
+  "homepage": "https://github.com/nasajana/masazekrakovska#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
