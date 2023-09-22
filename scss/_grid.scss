@@ -1,70 +1,70 @@
-.mskgrid{
-    display: grid;
-    grid-template-columns: 1fr;
-    &__auto{
-        grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
-    }
-   
-    &__sl2{
-        @media screen and (min-width: 780px){
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
+.mskgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  &.center-y {
+    align-items: center;
+  }
 
-    &__sl3{
-        @media screen and (min-width: 1100px) {
-            grid-template-columns: repeat(3, 1fr);
-        }
+  &__auto {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  &__sl2 {
+    @media screen and (min-width: 780px) {
+      grid-template-columns: repeat(2, 1fr);
     }
+  }
 
-    &__sl4{
-        @media screen and (min-width: 780px) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-        @media screen and (min-width: 1100px) {
-            grid-template-columns: repeat(4, 1fr);
-            }
+  &__sl3 {
+    @media screen and (min-width: 1100px) {
+      grid-template-columns: repeat(3, 1fr);
     }
+  }
 
-    &__sl6{
-        @media screen and (min-width: 780px) {
-            grid-template-columns: repeat(3, 1fr);
-        }
-        @media screen and (min-width: 1100px) {
-            grid-template-columns: repeat(6, 1fr);
-        }
+  &__sl4 {
+    @media screen and (min-width: 780px) {
+      grid-template-columns: repeat(2, 1fr);
     }
-
-    &__sl4sl2{
-        @media screen and (min-width: 780px) {
-            grid-template-columns: 2fr 1fr;
-        }
-
+    @media screen and (min-width: 1100px) {
+      grid-template-columns: repeat(4, 1fr);
     }
+  }
 
-    &__sl2sl4{
-        @media screen and (min-width: 780px) {
-            grid-template-columns: 1fr 2fr;
-        }
-        
+  &__sl6 {
+    @media screen and (min-width: 780px) {
+      grid-template-columns: repeat(3, 1fr);
     }
-    
-        &__radek{
-            grid-column: 1 / -1;
-        }
+    @media screen and (min-width: 1100px) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
 
+  &__sl4sl2 {
+    @media screen and (min-width: 780px) {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+
+  &__sl2sl4 {
+    @media screen and (min-width: 780px) {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+
+  &__radek {
+    grid-column: 1 / -1;
+  }
 }
 
-.g-10{
-    gap: 10px;
+.g-10 {
+  gap: 10px;
 }
-.g-15{
-    gap: 15px;
+.g-15 {
+  gap: 15px;
 }
-.g-20{
-    gap: 20px;
+.g-20 {
+  gap: 20px;
 }
-.g-25{
-    gap: 25px;
+.g-25 {
+  gap: 25px;
 }
-

@@ -53,6 +53,11 @@ h2 {
   margin-bottom: 1rem;
 }
 
+h3 {
+  font-size: calc(1.15rem + 0.2vw);
+  margin-bottom: 1rem;
+}
+
 .spacer-1 {
   padding: 1rem;
 }
@@ -87,8 +92,11 @@ h2 {
   display: grid;
   grid-template-columns: 1fr;
 }
+.mskgrid.center-y {
+  align-items: center;
+}
 .mskgrid__auto {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 @media screen and (min-width: 780px) {
   .mskgrid__sl2 {
@@ -228,18 +236,20 @@ h2 {
   margin: auto;
 }
 
-.foto {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-}
-
 img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
+}
+
+.shadow img {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.mskimg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 
 /* cenik */

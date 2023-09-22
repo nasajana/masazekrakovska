@@ -79,17 +79,18 @@
   margin: auto;
 }
 
-.foto {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-}
 
 img {
   object-fit: cover;
   width: 100%;
+  }
+
+.shadow img{
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.mskimg img{
+  object-fit: cover;
+  width: 100%;
 }
 
 /* cenik */
