@@ -60,7 +60,7 @@
   min-height: 130px;
   & .container {
     margin-top: 0;
-}
+  }
 }
 
 .container {
@@ -83,11 +83,13 @@
   display: block;
   position: relative;
   overflow: hidden;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 img {
   object-fit: cover;
   width: 100%;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 /* cenik */
