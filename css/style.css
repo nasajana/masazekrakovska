@@ -138,23 +138,19 @@ h3 {
     grid-template-columns: 1fr 2fr;
   }
 }
-.mskgrid__radek {
+.mskgrid__sl2sl4__radek {
   grid-column: 1/-1;
 }
-
-.g-10 {
+.mskgrid .g-10 {
   gap: 10px;
 }
-
-.g-15 {
+.mskgrid .g-15 {
   gap: 15px;
 }
-
-.g-20 {
+.mskgrid .g-20 {
   gap: 20px;
 }
-
-.g-25 {
+.mskgrid .g-25 {
   gap: 25px;
 }
 
